@@ -77,10 +77,10 @@ function arrSameStr(){
         a++;
       }
     }
-  }
-  if(a > temp){
-    temp = sss;
-    number = a;
+    if(a > number){
+      temp = sss;
+      number = a;
+    }
   }
   var rs = "The most character is:" + temp + " times:" + number;
   result.value = rs;
